@@ -112,7 +112,7 @@ async function insert(req, res, next) {
 
 async function validate(req, res, next) {
   try {
-    console.log("validate");
+    console.log("validate ");
   } catch (error) {
     console.log("An unexpected error occurred", error);
     return res.status(500).json({

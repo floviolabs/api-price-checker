@@ -76,6 +76,5 @@ router.get("/", function (req, res, next) {
 // router.post('/check', priceCheckerController.check);
 router.post("/insert", priceCheckerController.insert);
 router.post("/validate", priceCheckerController.validate);
-// router.post('/validate-insert', priceCheckerController.validateAndInsertDevice);
 
 module.exports = router;
